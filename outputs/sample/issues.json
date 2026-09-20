@@ -1,0 +1,16 @@
+{
+  "conflicts": [],
+  "enrichment": [
+    {
+      "business_id": "b_9c66b50474463c9f",
+      "reason": "website_fetch_failed",
+      "status": 404
+    }
+  ],
+  "rejected": [
+    {
+      "input_index": 5,
+      "reason": "Coordinate outside permitted range"
+    }
+  ]
+}

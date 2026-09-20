@@ -1,0 +1,6 @@
+business_id,name,address,category,lat,lon,identity_method,source_ids,websites,observation_count
+b_9c66b50474463c9f,Sample Studio,5 Fictional Lane,dance,,,name_address,[],"[""https://studio.example/contact""]",1
+b_c57d55c0ca9376ee,Sample Cafe,1 Fictional Lane,cafe,0.01,0.01,source,"[""node:101""]","[""https://cafe.example/contact""]",2
+b_2bc8ecaff4606b05,Sample Fitness North,2 Fictional Lane,fitness_centre,0.02,0.02,source,"[""node:102""]","[""https://fitness.example/contact""]",1
+b_f82ed47a76d8dd7d,Sample Fitness South,3 Fictional Lane,fitness_centre,0.03,0.03,source,"[""node:103""]","[""https://fitness.example/contact""]",1
+b_90c9b1dda1f6bf01,Sample Grocery,4 Fictional Lane,convenience,0.0,0.0,source,"[""way:201""]",[],1

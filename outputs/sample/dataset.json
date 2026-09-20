@@ -1,0 +1,157 @@
+{
+  "businesses": [
+    {
+      "address": "5 Fictional Lane",
+      "business_id": "b_9c66b50474463c9f",
+      "category": "dance",
+      "identity_method": "name_address",
+      "lat": null,
+      "lon": null,
+      "name": "Sample Studio",
+      "observation_count": 1,
+      "source_ids": [],
+      "websites": [
+        "https://studio.example/contact"
+      ]
+    },
+    {
+      "address": "1 Fictional Lane",
+      "business_id": "b_c57d55c0ca9376ee",
+      "category": "cafe",
+      "identity_method": "source",
+      "lat": 0.01,
+      "lon": 0.01,
+      "name": "Sample Cafe",
+      "observation_count": 2,
+      "source_ids": [
+        "node:101"
+      ],
+      "websites": [
+        "https://cafe.example/contact"
+      ]
+    },
+    {
+      "address": "2 Fictional Lane",
+      "business_id": "b_2bc8ecaff4606b05",
+      "category": "fitness_centre",
+      "identity_method": "source",
+      "lat": 0.02,
+      "lon": 0.02,
+      "name": "Sample Fitness North",
+      "observation_count": 1,
+      "source_ids": [
+        "node:102"
+      ],
+      "websites": [
+        "https://fitness.example/contact"
+      ]
+    },
+    {
+      "address": "3 Fictional Lane",
+      "business_id": "b_f82ed47a76d8dd7d",
+      "category": "fitness_centre",
+      "identity_method": "source",
+      "lat": 0.03,
+      "lon": 0.03,
+      "name": "Sample Fitness South",
+      "observation_count": 1,
+      "source_ids": [
+        "node:103"
+      ],
+      "websites": [
+        "https://fitness.example/contact"
+      ]
+    },
+    {
+      "address": "4 Fictional Lane",
+      "business_id": "b_90c9b1dda1f6bf01",
+      "category": "convenience",
+      "identity_method": "source",
+      "lat": 0.0,
+      "lon": 0.0,
+      "name": "Sample Grocery",
+      "observation_count": 1,
+      "source_ids": [
+        "way:201"
+      ],
+      "websites": []
+    }
+  ],
+  "contacts": [
+    {
+      "business_id": "b_2bc8ecaff4606b05",
+      "evidence": [
+        "https://fitness.example/contact"
+      ],
+      "kind": "email",
+      "status": "unverified",
+      "value": "info@fitness.example"
+    },
+    {
+      "business_id": "b_2bc8ecaff4606b05",
+      "evidence": [
+        "https://fitness.example/contact"
+      ],
+      "kind": "phone",
+      "status": "unverified",
+      "value": "+12025550103"
+    },
+    {
+      "business_id": "b_c57d55c0ca9376ee",
+      "evidence": [
+        "https://cafe.example/contact"
+      ],
+      "kind": "email",
+      "status": "unverified",
+      "value": "bookings@cafe.example"
+    },
+    {
+      "business_id": "b_c57d55c0ca9376ee",
+      "evidence": [
+        "https://cafe.example/contact",
+        "input"
+      ],
+      "kind": "email",
+      "status": "unverified",
+      "value": "hello@cafe.example"
+    },
+    {
+      "business_id": "b_c57d55c0ca9376ee",
+      "evidence": [
+        "https://cafe.example/contact",
+        "input"
+      ],
+      "kind": "phone",
+      "status": "unverified",
+      "value": "+12025550101"
+    },
+    {
+      "business_id": "b_c57d55c0ca9376ee",
+      "evidence": [
+        "https://cafe.example/contact",
+        "input"
+      ],
+      "kind": "phone",
+      "status": "unverified",
+      "value": "+12025550102"
+    },
+    {
+      "business_id": "b_f82ed47a76d8dd7d",
+      "evidence": [
+        "https://fitness.example/contact"
+      ],
+      "kind": "email",
+      "status": "unverified",
+      "value": "info@fitness.example"
+    },
+    {
+      "business_id": "b_f82ed47a76d8dd7d",
+      "evidence": [
+        "https://fitness.example/contact"
+      ],
+      "kind": "phone",
+      "status": "unverified",
+      "value": "+12025550103"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "contact_foreign_keys": true,
+    "entity_accounting": true,
+    "observation_accounting": true,
+    "unique_contacts": true,
+    "unique_entity_ids": true
+  },
+  "collection": {
+    "cache_hits": 0,
+    "requests": 6,
+    "retries": 2
+  },
+  "counts": {
+    "accepted_observations": 6,
+    "contact_records": 8,
+    "enrichment_failures": 1,
+    "entities_with_email": 3,
+    "entities_with_phone": 3,
+    "field_conflicts": 0,
+    "input_observations": 7,
+    "merged_observations": 1,
+    "rejected_observations": 1,
+    "retained_entities": 5
+  },
+  "data_kind": "synthetic_offline_fixture",
+  "fixture_sha256": "313fe2994944ef33192ffe8010a428d45675a9b46b7cd54e65b83312b57a2ea7",
+  "status": "review_required"
+}

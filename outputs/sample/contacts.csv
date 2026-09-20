@@ -1,0 +1,9 @@
+business_id,kind,value,evidence,status
+b_2bc8ecaff4606b05,email,info@fitness.example,"[""https://fitness.example/contact""]",unverified
+b_2bc8ecaff4606b05,phone,'+12025550103,"[""https://fitness.example/contact""]",unverified
+b_c57d55c0ca9376ee,email,bookings@cafe.example,"[""https://cafe.example/contact""]",unverified
+b_c57d55c0ca9376ee,email,hello@cafe.example,"[""https://cafe.example/contact"", ""input""]",unverified
+b_c57d55c0ca9376ee,phone,'+12025550101,"[""https://cafe.example/contact"", ""input""]",unverified
+b_c57d55c0ca9376ee,phone,'+12025550102,"[""https://cafe.example/contact"", ""input""]",unverified
+b_f82ed47a76d8dd7d,email,info@fitness.example,"[""https://fitness.example/contact""]",unverified
+b_f82ed47a76d8dd7d,phone,'+12025550103,"[""https://fitness.example/contact""]",unverified

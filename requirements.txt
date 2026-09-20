@@ -1,0 +1,1 @@
+# Python 3.10 or newer. No third-party runtime or test dependencies.

@@ -1,0 +1,25 @@
+{
+  "collection_url": "https://directory.example/places.json",
+  "responses": {
+    "https://directory.example/places.json": [
+      {"status": 429, "headers": {"Retry-After": "0"}},
+      {"status": 200, "body": {"elements": [
+        {"type": "node", "id": 101, "lat": 0.01, "lon": 0.01, "tags": {"name": "Sample Cafe", "addr:full": "1 Fictional Lane", "amenity": "cafe", "phone": "+1 (202) 555-0101", "website": "https://cafe.example/contact"}},
+        {"type": "node", "id": 101, "lat": 0.01, "lon": 0.01, "tags": {"name": " Sample  Cafe ", "addr:full": "1 Fictional Lane", "amenity": "cafe", "phone": "0012025550101; +1 202 555 0102", "email": "HELLO@cafe.example", "website": "https://cafe.example/contact"}},
+        {"type": "node", "id": 102, "lat": 0.02, "lon": 0.02, "tags": {"name": "Sample Fitness North", "addr:full": "2 Fictional Lane", "leisure": "fitness_centre", "website": "https://fitness.example/contact"}},
+        {"type": "node", "id": 103, "lat": 0.03, "lon": 0.03, "tags": {"name": "Sample Fitness South", "addr:full": "3 Fictional Lane", "leisure": "fitness_centre", "website": "https://fitness.example/contact"}},
+        {"type": "way", "id": 201, "center": {"lat": 0, "lon": 0}, "tags": {"name": "Sample Grocery", "addr:full": "4 Fictional Lane", "shop": "convenience"}},
+        {"type": "node", "id": 999, "lat": 120, "lon": 0, "tags": {"name": "Invalid Coordinate Fixture"}},
+        {"tags": {"name": "Sample Studio", "addr:full": "5 Fictional Lane", "leisure": "dance", "website": "https://studio.example/contact"}}
+      ]}}
+    ],
+    "https://cafe.example/contact": [
+      {"status": 200, "body": "<html><a href='tel:+12025550101'>Phone</a><a href='mailto:hello@cafe.example'>Email</a><script type='application/ld+json'>{\"@graph\":[{\"contactPoint\":{\"telephone\":\"+1 202 555 0102\",\"email\":\"bookings@cafe.example\"}}]}</script></html>"}
+    ],
+    "https://fitness.example/contact": [
+      {"status": 503},
+      {"status": 200, "body": "<a href='tel:+12025550103'>Central switchboard</a><a href='mailto:info@fitness.example'>Central office</a>"}
+    ],
+    "https://studio.example/contact": [{"status": 404}]
+  }
+}
